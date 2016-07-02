@@ -1,0 +1,30 @@
+{
+  "name": "quick-search",
+  "version": "1.0.0",
+  "description": "it is an quick search which take input through input box and then using jquery and ajax it send response to the server using get method and then server which is created on the  node js read the detail.json file and using regluar expression match it send response back to the ajax and using jquery the result is  shown at the webpage ",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itmonksakshay/quick-search.git"
+  },
+  "keywords": [
+    "quick-search",
+    "ajax",
+    "node",
+    "jquery"
+  ],
+  "author": "akshay bhatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itmonksakshay/quick-search/issues"
+  },
+  "homepage": "https://github.com/itmonksakshay/quick-search#readme"
+}
